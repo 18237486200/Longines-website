@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #002744;
+}
+/*页面顶部*/
+#iframe_1{
+	position: relative;
+	left: 150px;
+	border: transparent;
+}
+/*页面中间部分*/
+#register{
+	width: 1600px;
+	height: 1174px;
+	position: relative;
+	top: -8px;
+	background: #EFF1F3;
+	margin: 0 auto;
+}
+#register #register_left{
+	width: 960px;
+	height: 1064px;
+	border-right: 1px solid #ABB0B3;
+	position: absolute;
+	left: 140px;
+	top: 110px;
+}
+#register #register_right{
+	width: 312px;
+	height: 959px;
+	position: absolute;
+	left: 1184px;
+	top: 125px;
+}
+#register #register_left h1{
+	font-size:30px;
+    margin: 17px 5px 5px 10px;
+    padding-right: 230px;
+    color: #003150;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+}
+#register #register_left p{
+	padding: 12px 10px;
+	color: #677988;
+}
+#register #register_left p.p1{
+	margin-top: 25px;
+}
+#register #register_left input{
+	padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(0, 49, 80);
+	width: 349px;
+	height: 50px;
+}
+#register #register_left input.code{
+	width: 162px;
+	height: 50px;
+}
+#register #register_left a span.span_1{
+	display: inline-block;
+	width: 160px;
+	height: 59px;
+	background: #003150;
+	text-align: center;
+	line-height: 56px;
+	color: #fff;
+	border: 1px solid #003150;
+	margin-left: 20px;
+}
+#register #register_left a span:hover{
+	color: #003150;
+	background: #fff;
+}
+#register #register_left div.register_left_pwd{
+	width: 349px;
+	height: 83px;
+	margin: 30px;
+	margin-left: 0;
+	margin-bottom: 50px;
+}
+#register #register_left div.register_left_pwd p{
+	margin-bottom: 10px;
+	padding: 0;
+}
+#register #register_left div.register_left_pwd_1{
+	position: absolute;
+	bottom: 361px;
+	left: 540px;
+	margin: 0;
+}
+#register #register_left p.p2{
+	padding: 0;
+	
+}
+#register #register_left input.checkbox{
+	width: 24px;
+	height: 24px;
+	margin: 0;
+	margin-top: 45px;
+}
+#register #register_left label{
+	color: #677988;
+	font-size: 16px;
+}
+#register #register_left label p{
+	padding: 0;	
+	position: relative;
+	bottom: 26px;
+	left: 37px;
+}
+#register #register_left label p a{
+	color: #003150;
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+#register #register_left #submit{
+	display: block;
+	width: 260px;
+	height: 79px;
+	border: 1px solid #003150;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 79px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	background: #003150;
+}
+#register #register_left #submit:hover{
+	color: #003150;
+	background: #fff;
+}
+#register #register_right div h1{
+	color: #003150;
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#register #register_right div p{
+	color: #003150;
+	margin-bottom: 25px;
+	font-size: 17px;
+}
+#register #register_right #register_right_hp{
+	width: 270px;
+	height: 119px;
+	margin-left: 20px;
+	margin-bottom: 90px;
+}
+#register #register_right #register_right_hp h1{
+	color: #5d5d5d;
+	font-size: 36px;
+	font-weight: 400;
+}
+#register #register_right #register_right_hp p{
+	color: #5d5d5d;
+}
+#register #register_right strong{
+	font-size: 34px;
+	color: #003150;
+	padding-left: 20px;
+}
+#register #register_right p{
+	margin-bottom: 40px;
+	margin-top: 5px;
+	padding-left: 20px;
+	font-size: 20px;
+	color: #003150;
+}
+#register #register_right #email{
+	font-size: 18px;
+	color: #677988;
+	margin: 0;
+	margin-bottom: 5px;
+}
+#register #register_right input{
+	width: 243px;
+	height: 50px;
+	padding-left: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#register #register_right a{
+	font-size: 20px;
+	font-weight: 900;
+	color: #003150;
+	display: block;
+	margin-left: 95px;
+}
+#register #register_right #button{
+	display: block;
+	width: 243px;
+	height: 79px;
+	background: #003150;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 79px;
+	margin-top: 38px;
+	margin-left: 10px;
+	font-weight: normal;
+	border: 1px solid #003150;
+	font-size: 16px;
+}
+#register #register_right #button:hover{
+	color: #003150;
+	background: #fff;
+}
+#register #register_right span{
+	display: block;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#register #register_right span a{
+	color: #003150;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 10px;
+	text-decoration: none;
+}
+/*页面底部*/
+#iframe_2{
+	position: absolute;
+	top: 1285px;
+	left: 147px;
+	border: transparent;
+}

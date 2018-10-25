@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #002744;
+}
+/*页面顶部*/
+#iframe_1{
+	position: relative;
+	left: 149px;
+	border: transparent;
+}
+/*banner图*/
+#banner{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*banner-1*/
+#banner-1{
+    width: 1600px;
+    height: 1220px;
+    margin: 0 auto;
+    background: #EFF1F3;
+}
+#banner-1 div.banner{
+    width: 1560px;
+    height: 1200px;
+    padding-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+/*男士新品选择标题*/
+#menNewProduct{
+	width: 1600px;
+	height: 126px;
+	margin: 0 auto;
+    background: #EFF1F3;
+    text-align: center;
+    color:#002744;
+    font-size: 40px;
+    line-height: 126px;
+}
+/*男士新品*/
+#style{
+	width: 1600px;
+	height: 1790px;
+	margin: 0 auto;
+	background: #EFF1F3;
+}
+#style #style-one{
+	width: 1386px;
+	height: 581px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	background: #fff;
+}
+#style img{
+	width: 461px;
+	height: 544px;
+}
+#style #style-one #style-one-1{
+	width: 462px;
+	height: 581px;
+	position: relative;
+	border-right: 1px solid #E6EAED;
+	z-index: 1;
+}
+#style #style-one #style-one-1 div.style-text{
+	width: 461px;
+	height: 183px;
+	position: absolute;
+	bottom: 0px;
+	background: #fff;
+	text-align: center;
+}
+#style #style-one #style-one-1 div.style-text h5{
+	color: #84888b;
+	font-size: 20px;
+	margin-top: 15px;
+}
+#style #style-one #style-one-1 div.style-text p{
+	font-weight: 600;
+	color: #84888b;
+	font-size: 18px;
+	margin-top: 10px;
+}
+#style #style-one #style-one-1 div.style-text a{
+	text-decoration: none;
+	display: block;
+	margin: 5px auto;
+	color: #84888b;
+	font-weight: 600;
+}
+#style #style-one #style-one-1 div.style-text span{
+	display: block;
+	font-size: 24px;
+	font-weight: 400;
+}
+#style #style-one #style-one-1 div.style-text a span{
+	padding:8px;
+	background: #002744;
+	color: #fff;
+	font-size: 14px;
+	width: 90px;
+	margin: 0 auto;
+}
+#style div.border-right{
+	border-top: 1px solid #E6EAED;
+}
+/*底部*/
+#iframe_2{
+	position: absolute;
+	top: 7068px;
+	left: 148px;
+	border: transparent;
+}

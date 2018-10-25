@@ -1,0 +1,359 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #002744;
+}
+/*网页顶部导航栏*/
+/*客户服务*/
+#nav_one{
+	width: 1600px;
+	height: 50px;
+	margin: 0 auto;
+	background: #ABB0B3;
+	position: relative;
+}
+#nav_one span.left{
+	padding-right: 10px;
+	font-size: 16px;
+	line-height: 45px;
+	display: block;
+	width: 128px;
+	height: 50px;
+}
+#nav_one span.trg{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	border: 7px solid transparent;
+	border-top-color: #fff;
+}
+#nav_one span.left a{
+	display: inline-block;
+	height: 50px;
+	width: 128px;
+}
+#nav_one a:hover{
+	color: #003150;
+	background: #fff;
+}
+#nav_one a{
+	text-decoration: none;
+	color: #fff;
+}
+/*右侧*/
+#nav_one ul li{
+	float: right;
+	list-style: none;
+	font-size: 16px;
+	display: inline-block;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	position: relative;
+	bottom: 50px;
+}
+#nav_one ul li a{
+	display: inline-block;
+}
+#nav_one ul li a{
+	width: 130px;
+}
+#nav_one ul li a{
+	width: 90px;
+}
+#nav_one ul li a{
+	width: 118px;
+}
+#nav_one ul li a:hover{
+	background: #fff;
+	color: #003150;
+	
+}
+#nav_one ul li a.three{
+	cursor: text;
+}
+#nav_one ul li:hover .over{
+	display: block;
+}
+#nav_one ul li:hover .flow{
+	display: block;
+}
+/*隐藏部分1*/
+#nav_one div.over{
+	width: 200px;
+	height: 91px;
+	border: 1px solid #e6eaed;
+	border-top: transparent;
+	background: #fff;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	display: none;
+}
+#nav_one div.over h3{
+	color: #003150;
+	font-weight: 400;
+	padding-top: 20px;
+}
+#nav_one div.over p{
+	color: #666;
+	font-size: 12px;
+}
+#nav_one div.over p,h3{
+	padding-left:30px;
+	line-height: 20px;
+	text-align: left;
+}
+/*隐藏部分2*/
+#nav_one div.flow{
+	width: 201px;
+	height: 254px;
+	border: 1px solid #e6eaed;
+	border-top: transparent;
+	border-right: transparent;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	display: none;
+}
+#nav_one div.flow span{
+	color: #003150;
+	font-size: 20px;
+}
+#nav_one div.flow p{
+	color: #003150;
+	font-size: 12px;
+}
+#nav_one div.flow p,span{
+	text-align: center;
+	line-height: 20px;
+}
+#nav_one div.flow img{
+	margin: 15px;
+}
+/*顶部导航栏*/
+#nav_two{
+	width: 1600px;
+	height: 60px;
+	margin: 0 auto;
+	background: #fff;
+}
+#nav_two ul li{
+	float: left;
+	list-style: none;
+	width: 141px;
+	text-align: center;
+	position: relative;
+	left: 420px;
+}
+#nav_two ul li a{
+	color: #003150;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 60px;
+}
+#nav_two ul li a img{
+	width: 162px;
+	height: 40px;
+	vertical-align: middle;
+}
+#nav_two ul li.img-1{
+	width: 200px;
+	height: 40px;
+}
+/*腕表选购-隐藏部分*/
+#nav_two ul li #y1{
+	width: 1600px;
+	height: 733px;
+	border-top: 1px solid #E6EAED;
+	display: none;
+	position: absolute;
+	background: #fff;
+	left: -420px;
+}
+#nav_two ul li #y1 .x1{
+	width: 1600px;
+	height: 633px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+#nav_two ul li #y1 .x1 span{
+	display: block;
+	font-weight: normal;
+	color: #003150;
+	font-size: 24px;
+	position: relative;
+	top: 20px;
+	left: 1430px;
+}
+#nav_two ul li #y1 .x1 span img{
+	width: 30px;
+	height: 24px;
+	vertical-align: middle;
+}
+#nav_two ul li #y1 .x1 .x1_d1{
+	margin-top: 70px;
+	text-align: left;
+}
+#nav_two ul li #y1 .x1 img{
+	width: 238px;
+	height: 280px;
+}
+#nav_two ul li #y1 .x1 p a u{
+	color: #003150;
+	font-size: 24px;
+}
+#nav_two ul li #y1 .x1 p a{
+	color: #737373;
+	font-size: 14px;
+	line-height: 30px;
+}
+#nav_two ul li #y1 .x1 h2{
+	margin-top: 20px;
+	color: #003150;
+	font-size: 28px;
+}
+#nav_two ul li #y1 .x1_d1 a.p1{
+	color: #003150;
+	font-size: 24px;
+}
+#nav_two ul li #y1 .x1_d1{
+	color: #003150;
+	font-size: 18px;
+}
+#nav_two ul li #y1 .x1 p a:hover{
+	color: black;
+}
+#nav_two ul li:hover #y1{
+	display: block;
+	z-index: 1;
+}
+#nav_two ul li a#a1:hover{
+	border-bottom: 1px solid #003150;
+}
+/*腕表选购--隐藏部分结束*/
+/*浪琴世界--隐藏部分*/
+#nav_two ul li #y2{
+	width: 1600px;
+	height: 733px;
+	border-top: 1px solid #E6EAED;
+	display: none;
+	background: #fff;
+	position: absolute;
+	left: -561px;
+}
+#nav_two ul li #y2 #y2_1{
+	display: flex;
+	justify-content: space-around;
+}
+#nav_two ul li #y2 a img{
+	width: 382px;
+	height: 210px;
+}
+#nav_two ul li #y2 h2{
+	margin-top: 20px;
+	color: #003150;
+	font-size: 28px;
+}
+#nav_two ul li #y2 p a{
+	color: #737373;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 30px;
+}
+#nav_two ul li #y2 p a.w_k{
+	color: #737373;
+	font-size: 10px;
+}
+#nav_two ul li #y2 #y2_2{
+	position: relative;
+	right: 120px;
+	text-align: left;
+	display: flex;
+	justify-content: space-around;
+}
+#nav_two ul li #y2 #y2_2 p a:hover{
+	color: black;
+}
+#nav_two ul li:hover #y2{
+	display: block;
+	z-index: 1;
+}
+#nav_two ul li a#a2:hover{
+	border-bottom: 1px solid #003150;
+}
+#nav_two ul li #y2 a span img{
+	width: 30px;
+	height: 24px;
+	vertical-align: middle;
+}
+#nav_two ul li #y2 a span{
+	display: block;
+	font-weight: normal;
+	color: #003150;
+	font-size: 24px;
+	position: relative;
+	left: 750px;
+	top: 15px;
+	margin-bottom: 20px;
+}
+/*品牌-隐藏部分*/
+#nav_two ul li #y3{
+	width: 1600px;
+	height: 733px;
+	border-top: 1px solid #E6EAED;
+	display: none;
+	background: #fff;
+	position: absolute;
+	right: -557px;
+}
+#nav_two ul li #y3 span{
+	position: relative;
+	left: 750px;
+	top:20px
+	font-weight: normal;
+	font-size: 24px;
+}
+#nav_two ul li #y3 span img{
+	width: 30px;
+	height: 24px;
+	vertical-align: middle;
+}
+#nav_two ul li #y3 #y3_1 img{
+	width: 382px;
+	height: 210px;
+}
+#nav_two ul li #y3 #y3_1{
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+}
+#nav_two ul li #y3 #y3_1 h2{
+	margin-top: 20px;
+	color: #003150;
+	font-size: 28px;
+}
+#nav_two ul li #y3 #y3_1 p a{
+	color: #737373;
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: normal;
+}
+#nav_two ul li #y3 #y3_1 p a:hover{
+	color: black;
+}
+#nav_two ul li a#a3:hover{
+	border-bottom: 1px solid #003150;
+}
+#nav_two ul li:hover #y3{
+	display: block;
+	z-index: 1;
+}

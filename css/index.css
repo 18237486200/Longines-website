@@ -1,0 +1,406 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #002744;
+}
+/*页面顶部*/
+
+/*轮播图*/
+#sildeshow{
+	width: 1600px;
+	height: 790px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top: -8px;
+	z-index: 0;
+}
+#sildeshow #storgImg{
+	display: flex;
+	position: absolute;
+	width: 4800px;
+	height: 790px;
+	margin: 0 auto;
+}
+#sildeshow .arrow img{
+	width: 40px;
+	height: 40px;
+}
+#sildeshow .arrow .prev{
+	position: absolute;
+	top: 50%;
+	left: 40px;
+}
+#sildeshow .arrow .next{
+	position: absolute;
+	top: 50%;
+	right: 40px;
+}
+/*周年回馈*/
+#feedback{
+	width: 1600px;
+	height: 1267px;
+	margin: 0 auto;
+}
+/*品质承诺*/
+#quality{
+	width: 1600px;
+	height: 245px;
+	margin: 20px auto;
+	margin-bottom: 0px;
+	background: #fff;
+}
+#quality h3{
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+	color: #003150;
+	padding-top: 25px;
+}
+#quality #quality_2{
+	display: flex;
+	justify-content: center;
+}
+#quality a{
+	width: 300px;
+	height: 135px;
+	border-right: 1px solid #002744;
+	text-decoration: none;
+	margin-top: 30px;
+	text-align: center;
+}
+#quality #quality_2 a img{
+	width: 109px;
+	height: 87px;
+}
+#quality #quality_2 a p{
+	color:  #003150;
+	font-size: 17px;
+}
+#quality #quality_2 a.CN-4{
+	border-right: transparent;
+}
+/*专属推荐*/
+#exclusive{
+	width: 1600px;
+	height: 385px;
+	margin: 0 auto;
+}
+/*腕表系列*/
+#bbca{
+	width: 1600px;
+	height: 385px;
+	margin: 25px auto;
+	display: flex;
+	justify-content: space-between;
+}
+#bbca #bbca_1,#bbca_2,#bbca_3,#bbca_4{
+	width: 385px;
+	height: 385px;
+}
+#bbca #bbca_1.bbca-1{
+	background: url(../img/index/cat01.jpg);
+}
+#bbca #bbca_1 a{
+	display: block;
+	width: 385px;
+	height: 60px;
+	margin-top: 325px;
+	text-align: left;
+	line-height: 24px;
+	color: white;
+	font-size: 24px;
+	padding: 18px 24px 18px 31px;
+	text-decoration: none;
+	background: rgba(0,39,68,0.6);;
+}
+#bbca #bbca_1 a span{
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 150px;
+}
+#bbca #bbca_1.bbca-2{
+	background: url(../img/index/cat02.jpg);
+}
+#bbca #bbca_2{
+	position: relative;
+}
+#bbca #bbca_2 #bbca-a1{
+	display: block;
+	width: 385px;
+	height: 60px;
+	margin-top: 325px;
+	text-align: left;
+	line-height: 24px;
+	color: white;
+	font-size: 24px;
+	padding: 18px 24px 18px 31px;
+	text-decoration: none;
+	background: rgba(0,39,68,0.6);;
+}
+#bbca #bbca_2 #bbca-a1 span{
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 150px;
+}
+#bbca .bbca-3{
+	background: url(../img/index/cat03.png);
+}
+#bbca .bbca-4{
+	background: url(../img/index/cat04.png);
+}
+/*轮播2*/
+#sildeshow-2{
+	width: 1600px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+}
+#sildeshow-2 #sildeshow-2-1{
+	width: 544px;
+	height: 162px;
+	position: absolute;
+	top: 537px;
+	left: 1049px;
+}
+#sildeshow-2 #sildeshow-2-1 h5{
+	color: #84888b;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 15px;
+}
+#sildeshow-2 #sildeshow-2-1 p{
+	font-weight: 600;
+	color: #84888b;
+	font-size: 16px;
+	margin: 5px 0;
+	text-align: center;
+}
+#sildeshow-2 #sildeshow-2-1 a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	color: #84888b;
+}
+#sildeshow-2 #sildeshow-2-1 a span{
+	padding: 5px;
+	background: #002744;
+	color: white;
+}
+#sildeshow-2 #sildeshow-2-1 span.money{
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+#sildeshow-2 #BSF{
+	position: relative;
+}
+#sildeshow-2 #BSF .left{
+	position: absolute;
+	left: -557px;
+	top: 300px;
+}
+#sildeshow-2 #BSF .right{
+	position: absolute;
+	left:-44px;
+	top:300px;
+}
+/*热门腕表*/
+#rmwb{
+	margin: 20px auto;
+	width: 1600px;
+}
+/*热门腕表*/
+#hot{
+	width: 1600px;
+	height: 600px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	background: #fff;
+}
+#hot #hot_1{
+	width: 397px;
+	height: 600px;
+	position: relative;
+	background: #fff;
+}
+#hot #hot_1 a img{
+	width: 397px;
+	height: 469px;
+	border-right: 1px solid #002744;
+}
+#hot #hot_1 #hot_1_a{
+	width: 397px;
+	height: 183px;
+	border-right: 1px solid #002744;
+	position: absolute;
+	bottom: 0px;
+	background: #fff;
+	text-align: center;
+}
+#hot #hot_1 #hot_1_a a{
+	text-decoration: none;
+	color: #84888b;
+}
+#hot #hot_1 #hot_1_a a h3{
+	font-size: 20px;
+	padding: 0;
+	background: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#hot #hot_1 #hot_1_a a h4{
+	font-size: 16px;
+	background: #fff;
+}
+#hot #hot_1 #hot_1_a a h5{
+	font-size: 16px;
+	margin-top: 5px;
+	background: #fff;
+}
+#hot #hot_1 #hot_1_a a p{
+	background: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: #003150;
+}
+#hot #hot_1 #hot_1_a a span{
+	background: #002744;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 15px;
+	padding: 0 10px;
+}
+/*休闲腕表*/
+#relaxation{
+	width: 1600px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+div.relaxa{
+	width: 1600px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	background: #fff;
+	top: 23px;
+	display: flex;
+	justify-content: space-between;
+}
+div.relaxa #relaxa_1{
+	width: 398px;
+	height: 600px;
+}
+div.relaxa a img{
+	width: 398px;
+	height: 420px;
+	border-right: 1px solid #002744;
+}
+div.relaxa #relaxa_1 #relaxa_1_a{
+	width: 398px;
+	height: 191px;
+	position: relative;
+	top: -75px;
+	background: #fff;
+	border-right: 1px solid #002744
+}
+div.relaxa #relaxa_1 #relaxa_1_a a{
+	text-decoration: none;
+	color: #84888B;
+	text-align: center;
+}
+div.relaxa #relaxa_1 #relaxa_1_a a h3{
+	font-size: 18px;
+	background: #fff;
+	margin-top: 60px;
+	padding: 0;
+	text-align: center;
+}
+div.relaxa #relaxa_1 #relaxa_1_a a h4{
+	font-size: 18px;
+	background: #fff;
+	margin-top: 15px;
+}
+div.relaxa #relaxa_1 #relaxa_1_a a h5{
+	font-size: 16px;
+	margin-top: 10px;
+	background: #fff;
+}
+div.relaxa #relaxa_1 #relaxa_1_a a p{
+	background: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	color: #003150;
+}
+div.relaxa #relaxa_1 #relaxa_1_a a span{
+	padding: 0 5px;
+	background: #002744;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	width: 70px;
+	margin: 0 auto;
+}
+/*限量发售*/
+.limit{
+	position: relative;
+	top: 25px;
+}
+/*寻找零售商*/
+#search{
+	width: 1600px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+#search div{
+	width: 800px;
+	height: 300px;
+	text-align: center;
+}
+#search #search_1{
+	background: url(../img/index/watchselector-background.jpg);
+}
+#search #search_1 span{
+	font-size: 28px;
+	color: #edeff0;
+	display: inline-block;
+	margin-top: 120px;
+	background: #164164;
+	line-height: 40px;
+}
+#search #search_2 span{
+	font-size: 40px;
+	color: #edeff0;
+	display: inline-block;
+	margin-top: 120px;
+	background: #C7CCD0;
+}
+#search #search_2{
+	background: url(../img/index/retailer-background.jpg);
+}
+#search:hover{
+	cursor: pointer;
+}
+/*页面底部*/
+#iframe_2{
+	height: 1110px;
+	width: 100%;
+	border: transparent;
+	margin-top: 115px
+}

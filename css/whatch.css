@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #002744;
+}
+/*页面顶部*/
+#iframe_1{
+	position: relative;
+	left: 149px;
+	border: transparent;
+}
+/*腕表选购*/
+#whatch{
+	width: 1600px;
+	height: 1695px;
+	margin: 0 auto;
+	position: relative;
+	top: -8px;
+	background: #fff;
+}
+#whatch nav{
+	width: 1600px;
+	height: 58px;
+	border-bottom: 1px solid #eff1f3;
+	line-height: 58px;
+	padding-left: 70px;
+}
+#whatch nav a{
+	display: inline-block;
+	height: 58px;
+	color: #737373;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0 5px;
+}
+#whatch nav a:hover{
+	color: #333;
+}
+#whatch h1{
+	font-size: 70px;
+    line-height: 76px;
+    color: #34495e;
+    letter-spacing: 3px;
+    width: 666px;
+    margin: 40px 0px 90px 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#whatch #whatch_1 ul li{
+	float: left;
+	list-style-type: none;
+	padding-left: 60px;
+}
+#whatch #whatch_1 ul li a{
+	text-decoration: none;
+	color: #003150;
+	font-weight: 600;
+}
+#whatch #y1{
+	width: 1600px;
+	height: 733px;
+}
+#whatch #y1 .x1{
+	width: 1600px;
+	height: 633px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+#whatch #y1 .x1 span img{
+	width: 30px;
+	height: 24px;
+	vertical-align: middle;
+}
+#whatch #y1 .x1 img{
+	width: 238px;
+	height: 280px;
+}
+
+#whatch #y1 .x1 p a{
+	color: #737373;
+	font-size: 12px;
+	line-height: 35px;
+	text-decoration: none;
+}
+#whatch #y1 .x1 h2{
+	margin-top: 20px;
+	color: #003150;
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+#whatch #y1 .x1 p a:hover{
+	color: black;
+}
+
+#universes_2{
+	width: 1390px;
+	height: 524px;
+	border-top: 1px solid #eff1f3;
+	margin: 70px auto 131px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+#universes_2 .universes1{
+	width: 45%;
+    padding-right: 9.5%;
+    font-size: 24px;
+    line-height: 34px;
+    color: #737373;
+	display: inline-block;
+}
+#universes_2 .text{
+	display: inline-block;
+	vertical-align: top;
+	width: 55%;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 2px;
+    color: #737373;
+}
+
+#iframe_2{
+	position: absolute;
+	top: 1806px;
+	left: 147px;
+	border: transparent;
+}

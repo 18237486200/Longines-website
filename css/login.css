@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	background: #002744;
+}
+/*页面顶部*/
+#iframe_1{
+	position: relative;
+	left: 149px;
+	border: transparent;
+}
+/*中间部分*/
+#login{
+	width: 1600px;
+	height: 849px;
+	margin: 0 auto;
+	position: relative;
+	top: -8px;
+	background: #EDEFF0;
+}
+#login h1{
+	color: #003150;
+	font-size: 40px;
+	padding-top: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+#login #login_bottom{
+	width: 1600px;
+	height: 733px;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+#login #login_left{
+	width: 340px;
+	height: 531px;
+	border-right: 1px solid #c7ccd0;
+	margin-left: 150px;
+}
+#login #login_right{
+	width: 490px;
+	height: 305px;
+}
+#login .title{
+	width: 300px;
+	height: 32px;
+	margin-bottom: 30px;
+	padding-top: 8px;
+	font-size: 18px;
+	color: #003150;
+}
+#login input{
+	width: 300px;
+	padding-left: 10px;
+	height: 70px;
+	margin: 15px 0;
+	border: 1px solid #c7ccd0;
+	color: #003150;
+}
+#login span{
+	display: block;
+	width: 300px;
+	text-align: right;
+	margin-top: -15px;
+}
+#login span a{
+	color: #677988;
+	font-size: 12px;
+	text-decoration: none;
+	
+}
+#login #button{
+	background: #003150;
+    font-weight: 600;
+    color: #fff;
+}
+#login p a{
+	color: #003150;
+	font-size: 14px;
+	text-decoration: none;
+}
+#login #button:hover{
+	background: #fff;
+	color: #003150;
+	border: 1px solid #003150;
+}
+/*创建账户部分*/
+#login #login_right .title_2{
+	width: 300px;
+	height: 32px;
+	margin-left: 20px;
+	margin-bottom: 62px;
+	padding-top: 8px;
+	font-size: 18px;
+	color: #003150;
+}
+#login #login_right p{
+	margin: 20px;
+	color: #003150;
+	font-size: 14px;
+}
+#login #login_right .button{
+	margin-left: 20px;
+}
+#login #login_right a{
+	display: block;
+	width: 300px;
+	height: 70px;
+	border: 1px solid #003150;
+	background: #003150;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	line-height: 70px;
+	margin-left: 20px;
+}
+#login #login_right a:hover{
+	background: #fff;
+	color: #003150;
+}
